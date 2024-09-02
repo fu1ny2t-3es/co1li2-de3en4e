@@ -20,7 +20,7 @@ runs:
 
     - uses: li1ht2ay-3es/gi1-ac2io3s@rebase-repo
       with:
-        remote_repo: owner/repo
+        remote_repo: vayan/collie-defense
         remote_branch: master
 
         token: ${{ inputs.token }}
