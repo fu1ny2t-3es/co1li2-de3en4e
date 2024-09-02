@@ -2,10 +2,6 @@ name: build & release rom
 
 on:
   push:
-    branches: [master]
-  release:
-    types: [published]
-  pull_request:
   workflow_dispatch:
 
 jobs:
