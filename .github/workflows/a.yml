@@ -51,6 +51,9 @@ jobs:
         env:
           LIBBUTANO: ${{ github.workspace }}/butano/butano
 
+      - name: Fix name
+        run: mv "co1li2-de3en4e.gba" "collie-defense.gba"
+
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
         with:
